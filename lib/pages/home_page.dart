@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 
 class HomePage extends StatelessWidget {
-  final String name = "Shruti";
 
   @override
   Widget build(BuildContext context) {
@@ -11,7 +10,7 @@ class HomePage extends StatelessWidget {
       ),
       body: Center(
         child: Container(
-          child: Text("Hello $name"),
+          child: Text("Hello"),
         ),
       ),
       drawer: Drawer(),
